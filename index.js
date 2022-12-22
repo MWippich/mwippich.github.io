@@ -108,8 +108,8 @@ const trialOrder = [...trials.keys()];
 shuffleArray(trialOrder);
 const numTrials = trials.length;
 let currentTrialIndex = -1;
-const pageDelay = 50;
-const trialDelay = 10;
+const pageDelay = 5000;
+const trialDelay = 1000;
 let startTime = new Date();
 let results = []
 
